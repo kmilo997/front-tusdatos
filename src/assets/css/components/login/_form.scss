@@ -1,0 +1,16 @@
+.form-login {
+    &__container {
+        min-height: 100%;
+        &--hint {
+            text-decoration: underline;
+            cursor: pointer;
+            display: flex;
+            padding-top: 5px;
+        }
+
+        &--error-login {
+            display: flex;
+            color: red
+        }
+    }
+}
