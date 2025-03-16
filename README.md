@@ -1,24 +1,33 @@
 # frontend-test-tusdatos
 
 ## Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Start project
+
+To start it, we have two way to do it
+
+The first way
+
 ```
-npm run serve
+npm run start_dev
 ```
 
-### Compiles and minifies for production
+The second way
+
 ```
-npm run build
+npm run start_prod
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+The difference is the env, in **start_dev** the project hit to local env, and in **start_prod** the project hit to prod env
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Public URL
+
+The project was deployed in GCP, here you can access and test it
+
+```
+https://front-tusdatos-831678065783.us-central1.run.app
+```
