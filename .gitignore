@@ -4,7 +4,7 @@ node_modules
 .prettierrc
 .dockerignore
 .browserslistrc
-.package-lock.json
+package-lock.json
 
 # local env files
 .env
